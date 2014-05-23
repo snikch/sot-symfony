@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Pacific/Auckland');
 
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\HttpFoundation\Request;
