@@ -1,3 +1,27 @@
+Run Server
+```
+php app/console server:run 0.0.0.0:8080
+```
+
+Create DB
+
+```
+php app/console doctrine:database:create
+```
+
+Convert Entities
+```
+php app/console doctrine:generate:entity
+```
+
+Update Database
+
+```
+php app/console doctrine:schema:update --force
+```
+
+
+
 Symfony Standard Edition
 ========================
 
